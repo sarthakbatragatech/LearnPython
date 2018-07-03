@@ -76,7 +76,42 @@ print("\n")
 print('Section 4: Conditionals')
 print('-------------------------------\n')
 
+# Check if a given number is divisible by 3 or 10 or both
+number = 5000
+print("Let's see if the number " + str(number) + " is divisible by 3, 10, or both those numbers!")
+print()
+
+if number % 30 == 0:
+    print("The number " + str(number) + " is divisible by both 3 and 10")
+elif number % 3 == 0:
+    print("The number " + str(number) + " is divisible by just 3")
+elif number % 10 == 0:
+    print("The number " + str(number) + " is divisible by just 10")
+print("\n")
+
 # Section 4: Loops------------------------------------------------------------------------------------------------------
 
 print('Section 5: Loops')
+print('-------------------------------\n')
+
+# Check if a given number is divisible by any numbers between 1 and  10, including those two
+number = 5000
+print("Let's see if the number " + str(number) + " is divisible by any numbers between 1 and  10")
+print()
+for i in range(1, 11):
+    if number % i == 0:
+        print("The number " + str(number) + " is divisible by " + str(i))
+
+print("\n")
+
+# Check if a given number is divisible by any number between a set of two natural numbers, a and b.
+number = 5000
+# range(a,b) outputs numbers from a to b-1
+a = 5
+b = 200
+print("Let's see if the number " + str(number) + " is divisible by any numbers between " + str(a) + " and " + str(b))
+print()
+for i in range(a, b):
+    if number % i == 0:
+        print("The number " + str(number) + " is divisible by " + str(i))
 print('-------------------------------\n')

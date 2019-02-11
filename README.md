@@ -1,8 +1,8 @@
 # Learn Python
 
-The aim of this project is to introduce Python to beginners. A great way to learn a new language is to inspect a piece of code and its output, then manipulate it slightly and notice the change in output. This cycle should continue until you feel comfortable with the code section
+The aim of this project is to introduce Python to beginners. A great way to learn a new language is to inspect a piece of code and its output, then manipulate it slightly and notice the change in output. This cycle should continue until you feel comfortable with the code section.
 
-Python is different from Java and C/C++ as it provides dynamic programming. In addition, there are many nuances that may take some time to adjust to. This project will highlight the same.
+Python is a dynamically typed language and is different from Java and C/C++, which are statically typed. In addition, there are many nuances that may take some time to adjust to. This project will highlight the same.
 
 For those who have abundance of expertise, or even intermediates with interest in computer architecture, check out the disassembeler on this code and know https://docs.python.org/3.6/library/dis.html
 
